@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #fff;
+}
+
+.container {
+    position: relative;
+}
+
+.background {
+    width: 800px; /* JPG 크기에 맞게 조정 */
+}
+
+.search-box {
+    position: absolute;
+    top: 118px; /* 검색창 위치 조정 */
+    left: 250px;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    background: transparent;
+    color: black;
+    outline: none;
+    caret-color: black;
+    text-align: left;
+}
